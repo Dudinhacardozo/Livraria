@@ -17,8 +17,8 @@ router = DefaultRouter()
 
 router.register(r"users", UserViewSet, basename="users")
 router.register(r"categorias", CategoriaViewSet, basename="categorias")
-router.register(r"editora", EditoraViewSet, basename="editora")
-router.register(r"autor", AutorViewSet, basename="autor")
+router.register(r"editoras", EditoraViewSet, basename="editoras")
+router.register(r"autores", AutorViewSet, basename="autores")
 
 
 
