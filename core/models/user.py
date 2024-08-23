@@ -1,6 +1,7 @@
 """
 Database models.
 """
+
 from django.contrib.auth.models import (
     AbstractBaseUser,
     BaseUserManager,
@@ -44,3 +45,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     objects = UserManager()
 
     USERNAME_FIELD = "email"
+
+    class Meta:
+        verbose_name = "Usuário"
+        verbose_name_plural = "Usuários"
