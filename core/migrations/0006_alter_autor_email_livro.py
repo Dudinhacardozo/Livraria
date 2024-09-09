@@ -14,7 +14,7 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name="autor",
             name="email",
-            field=models.CharField(max_length=100),
+            field=models.EmailField(max_length=100),
         ),
         migrations.CreateModel(
             name="Livro",
@@ -41,7 +41,7 @@ class Migration(migrations.Migration):
                         blank=True,
                         null=True,
                         on_delete=django.db.models.deletion.PROTECT,
-                        related_name="livros",
+                        related_name="livro",
                         to="core.editora",
                     ),
                 ),
