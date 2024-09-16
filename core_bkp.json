@@ -1,5 +1,5 @@
 MODE: DEVELOPMENT 
-MEDIA_URL: http://191.52.55.222:19003/media/ 
+MEDIA_URL: http://191.52.55.21:19003/media/ 
 DATABASE: {'default': {'ENGINE': 'django.db.backends.sqlite3', 'NAME': PosixPath('/home/maria.cardozo/Área de Trabalho/Livraria/db.sqlite3')}}
 [
 {
@@ -680,99 +680,13 @@ DATABASE: {'default': {'ENGINE': 'django.db.backends.sqlite3', 'NAME': PosixPath
   }
 },
 {
-  "model": "core.user",
+  "model": "uploader.image",
   "pk": 1,
   "fields": {
-    "password": "pbkdf2_sha256$870000$FrrHgx93KeryC5VabDJN8Z$Sqtz3OBrP0/Fg0Vd1lLdN7RWEbur8vkdfo9ZSVuQM9Y=",
-    "last_login": "2024-08-23T19:07:49.224Z",
-    "is_superuser": true,
-    "email": "a@a.com",
-    "name": "Super User",
-    "is_active": true,
-    "is_staff": true,
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "core.user",
-  "pk": 2,
-  "fields": {
-    "password": "pbkdf2_sha256$720000$zF0Spr6kzuG9XilB5oI3uJ$zKZlgiqN4nyqKUNeR3iB7oYPTV2UMqZ0H0TV41t10EY=",
-    "last_login": null,
-    "is_superuser": false,
-    "email": "dudakrdozo@gmail.com",
-    "name": "dudinhacardozo",
-    "is_active": true,
-    "is_staff": false,
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "core.categoria",
-  "pk": 1,
-  "fields": {
-    "descricao": "Redes"
-  }
-},
-{
-  "model": "core.categoria",
-  "pk": 3,
-  "fields": {
-    "descricao": "Web"
-  }
-},
-{
-  "model": "core.categoria",
-  "pk": 4,
-  "fields": {
-    "descricao": "Categoria object (4)"
-  }
-},
-{
-  "model": "core.categoria",
-  "pk": 5,
-  "fields": {
-    "descricao": "Categoria object (5)"
-  }
-},
-{
-  "model": "core.categoria",
-  "pk": 8,
-  "fields": {
-    "descricao": "ssd"
-  }
-},
-{
-  "model": "core.editora",
-  "pk": 1,
-  "fields": {
-    "nome": "moderna",
-    "site": null
-  }
-},
-{
-  "model": "core.autor",
-  "pk": 1,
-  "fields": {
-    "nome": "Dudinha",
-    "email": null
-  }
-},
-{
-  "model": "core.autor",
-  "pk": 2,
-  "fields": {
-    "nome": "Araquari",
-    "email": null
-  }
-},
-{
-  "model": "core.autor",
-  "pk": 3,
-  "fields": {
-    "nome": "Joinville",
-    "email": ""
+    "attachment_key": "bc2dbd1a-6a47-46bf-bcb8-51d73810172f",
+    "public_id": "15528be9-91df-4667-885b-89776716102e",
+    "file": "images/15528be9-91df-4667-885b-89776716102e",
+    "description": "",
+    "uploaded_on": "2024-08-19T17:42:18.502Z"
   }
 }
